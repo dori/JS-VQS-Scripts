@@ -1,0 +1,41 @@
+a.navLink {
+	font-size: 12px;
+	text-decoration: underline;
+	padding: 5px;
+	color: #000;
+	cursor:pointer;
+}
+
+div.right div {
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+.column p {
+	margin: 10px 0px;
+	font: normal 12px verdana, sans-serif;
+	line-height: 15px;
+}
+
+.column.right {
+	text-align: center;
+	background-color: #C2C2D7;
+	float: left;
+	margin-left: 10px;
+	width: 200px;
+	padding: 50px 0 50px 25px;
+	height: 425px;
+	font-size: .8em;
+}
+
+.column.left {
+	float: left;
+	display: inline;
+	margin-left: 80px;
+	width: 300px;
+}

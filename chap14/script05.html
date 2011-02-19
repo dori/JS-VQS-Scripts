@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Animation</title>
+	<link type="text/css" rel="stylesheet" href="yui/container.css" />
+	<link type="text/css" rel="stylesheet" href="yui/button.css" />
+	<link type="text/css" rel="stylesheet" href="script04.css" />
+	<script type="text/javascript" src="yui/yahoo-dom-event.js"></script>
+	<script type="text/javascript" src="yui/dragdrop.js"></script>
+	<script type="text/javascript" src="yui/element-beta.js"></script>
+	<script type="text/javascript" src="yui/animation.js"></script> 
+	<script type="text/javascript" src="yui/button.js"></script>
+	<script type="text/javascript" src="yui/container.js"></script>
+	<script type="text/javascript" src="script05.js"></script>
+</head>
+<body class="yui-skin-sam">
+<div id="WeatherWidget">
+	<div id="header">
+		<a href="#" id="loadDialog">edit</a>
+		<span>Your Local Weather</span>
+	</div>
+	<a href="#">Sonoma, CA</a><br />
+	<div class="weatherFig">
+		Tonight<br />
+		<img src="images/nt_clear.gif" alt="nt_clear.gif" width="42" height="42" /><br />
+		Low: 59&deg;
+	</div>
+	<div class="weatherFig">
+		Today<br />
+		<img src="images/clear.gif" alt="clear.gif" width="42" height="42" /><br />
+		High: 95&deg;
+	</div>
+	<span class="big">91&deg;F</span><br />
+	Clear<br />
+	Humidity: 36%<br />
+	Visibility: 10 mi<br />
+	Wind: SE 10 mph
+</div>
+<div id="dlg">
+	<div class="hd">Your weather preferences:</div>
+	<form name="dlgForm" action="#">
+		<p><label for="radiobuttons">Temperature:</label>
+		<input type="radio" name="radiobuttons[]" value="C" checked="checked" /> C
+		<input type="radio" name="radiobuttons[]" value="F" /> F</p>
+		<p><label for="zip">Zip code:</label> <input type="text" name="zip" size="5" /></p> 
+	</form>
+</div>
+</body>
+</html>

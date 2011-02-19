@@ -1,0 +1,8 @@
+#theMenu { width: 230px; }
+
+ul li ul {
+	margin-left: 10px;
+	padding-right: 10px;
+	background-color: #A0DF82;
+	list-style-type: none; 
+}

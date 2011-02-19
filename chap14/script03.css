@@ -1,0 +1,32 @@
+#sel1 {
+	position: absolute;
+	left: 148px;
+	top: 75px;
+}
+
+#sel2 {
+	position: absolute;
+	left: 303px;
+	top: 75px;
+}
+
+#selMonth1, #selDay1, #selMonth2, #selDay2 {
+	vertical-align: middle;
+}
+
+#dateLink1, #dateLink2 {
+	vertical-align: middle;
+	margin: 5px;
+}
+
+#cal1Container, #cal2Container {
+	position: absolute;
+	display: none;
+	width: 380px;
+	font-size: .8em;
+}
+
+h1 {
+	font-size: 1.5em;
+	margin: 50px 0 0 50px;
+}

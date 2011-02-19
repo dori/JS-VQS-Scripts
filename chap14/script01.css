@@ -1,0 +1,17 @@
+h1, form {
+	margin-left: 40px;
+}
+
+li {
+	list-style-type: none;
+	float: left;
+	margin: 0 16px 16px 0;
+}
+
+.sortList {
+	width: 130px;
+}
+
+ul {
+	width: 600px;
+}
