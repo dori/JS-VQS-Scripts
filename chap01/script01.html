@@ -2,12 +2,14 @@
 <html>
 <head>
 	<title>Barely a script at all</title>
+	<script type="text/javascript">
+		window.onload = function() {
+			document.getElementById("myMessage").innerHTML = "Hello, Cleveland!";
+		}
+	</script>
 </head>
 <body>
-<h1>
-	<script type="text/javascript">
-		document.write("Hello, Cleveland!");
-	</script>
+<h1 id="myMessage">
 </h1>
 </body>
 </html>
